@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "dotnet-counters-snapshot": {
+      "commandName": "Project",
+      "commandLineArgs": "snapshot -p 13724 System.Runtime[cpu-usage,working-set] InventoryImport.Metrics[queued,processed,errors,queue-time,processing-time,total-time,slots-available]"
+    }
+  }
+}
